@@ -7,5 +7,4 @@ Matplotlib是用来画图的库。使用Matplotlib能将实验结果可视化，
 
 Anaconda是一个侧重于数据分析的发行版，前面说的NumPy、Matplotlib等有助于数据分析
 的库都包含在其中
-
 """

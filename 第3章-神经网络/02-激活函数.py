@@ -109,7 +109,7 @@ ReLU函数 (Rectified Linear Unit):
 
 def relu(x):
     """ReLU函数实现"""
-    return np.maximum(0, x)
+    return np.maximum(0, x) # maximum函数会从输入的数值中选择较大的那个值进行输出
 
 # 绘制ReLU函数图像
 plt.figure(figsize=(8, 5))
