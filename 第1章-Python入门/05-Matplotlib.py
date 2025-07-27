@@ -34,7 +34,7 @@ plt.show()  # 显示图形
 from matplotlib.image import imread  # 导入图像读取函数
 
 try:
-    img = imread('../数据集/lena.png')  # 读取图像文件
+    img = imread('../数据/lena.png')  # 读取图像文件
     plt.imshow(img)  # 将图像数据转换为绘图对象
     plt.show()       # 显示图像窗口
 except FileNotFoundError:
