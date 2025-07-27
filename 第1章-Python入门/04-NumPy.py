@@ -95,3 +95,11 @@ NumPy的核心运算使用C/C++实现，因此：
 2. 提供简洁高效的语法
 3. 支持向量化操作（避免显式循环）
 """
+
+"""
+对比一下range() 和 arange()
+range() 和arange() 的返回类型不同，range()返回的是range；而np.arange()返回的是ndarray类型；
+range()不支持步长为小数，而arange()支持步长(step)为小数；
+range()和arange()都可用于迭代；
+range()可用于迭代，而arange作用远不止于此，它是一个序列，可被当做向量使用。
+"""
