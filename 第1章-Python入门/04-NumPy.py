@@ -97,9 +97,15 @@ NumPy的核心运算使用C/C++实现，因此：
 """
 
 """
-对比一下range() 和 arange()
-range() 和arange() 的返回类型不同，range()返回的是range；而np.arange()返回的是ndarray类型；
-range()不支持步长为小数，而arange()支持步长(step)为小数；
-range()和arange()都可用于迭代；
-range()可用于迭代，而arange作用远不止于此，它是一个序列，可被当做向量使用。
+np.array()和np.arange()的区别
+
+np.array()：转换器
+将现有数据（列表/元组等）转换为NumPy数组
+→ 输入：[1, 2, 3] → 输出：array([1,2,3])
+
+np.arange()：生成器
+自动生成数值序列（类似range()的数组版）
+→ 输入：(开始, 结束, 步长) → 输出：array([0,1,2,...])
+
+np.array()是数据容器构造器，np.arange()是数值序列生成器。
 """
