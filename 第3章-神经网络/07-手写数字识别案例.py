@@ -118,7 +118,7 @@ if __name__ == '__main__':
 
 
 def test_mydata():
-    image = Image.open('../数据/img_1.png')   #读取自定义手写图片
+    image = Image.open('../数据/img_2.png')   #读取自定义手写图片
     image = image.resize((28, 28))   # 裁剪尺寸为28*28
     image = image.convert('L')  # 转换为灰度图像
     transform = transforms.ToTensor()
@@ -131,6 +131,6 @@ def test_mydata():
     plt.imshow(image.squeeze())
     plt.show()
 
-# 测试主函数
-if __name__ == '__main__':
-    test_mydata()
+# # 测试主函数
+# if __name__ == '__main__':
+#     test_mydata()
