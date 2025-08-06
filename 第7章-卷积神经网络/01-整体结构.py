@@ -1,5 +1,5 @@
 """
-卷积神经网络（Convolutional Neural Network，CNN）。CNN被用于图像识别、语音识别等各种场合
+卷积神经网络（Convolutional Neural Network，CNN）。CNN被用于图像识别、语音识别等各种场合。
 相邻层的所有神经元之间都有连接，这称为全连接（fully-connected）
 
 卷积神经网络(Convolutional Neural Network)结构详解
